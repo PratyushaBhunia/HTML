@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remaining Forms</title>
+</head>
+<body>
+    <center>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="DOB">
+        <br>
+        <label for="dob-time">Date of Birth with time:</label>
+        <input type="datetime-local" id="dob-time" name="DOB-Time">
+        <br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="timing">
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Additional Information</legend>
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="Url">
+        <br>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <label for="img">Image:</label>
+        <input type="image" src="media/Oggy_Catalogue_VA.jpg" width="20%" height="30%" id="img" name="img">
+        <br>
+        <label for="File">Upload Pan Card:</label>
+        <input type="file" id="File" name="file" accept=".jpg, .png, .pdf">
+        <br>
+        <label for="Range">Rating:</label>
+        <input type="range" id="Range" name="rate" min="1" max="10" value="0">
+        <br>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="searching">
+        <br>
+        <label>Choose Course:</label>
+        <label><input type="checkbox" name="itm1" value="jave">Java</label>
+        <label><input type="checkbox" name="itm2" value="python">Python</label>
+        <label><input type="checkbox" name="itm3" value="javaScript">Java Script</label>
+        <br>
+        <label>Choose Payment Option:</label>
+        <label><input type="radio" name="itm" value="upi">UPI</label>
+        <label><input type="radio" name="itm" value="cash">Cash</label>
+        <label><input type="radio" name="itm" value="gpay">GPay</label>
+        <br>
+        <label for="multipleOptions">Choose Language</label>
+        <select name="lang" id="multipleOptions" multiple>
+            <option value="eng">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="beng">Bengali</option>
+        </select>
+        <br>
+        <label for="dropDownList">Choose Course:</label>
+        <select name="tech" id="dropDownList">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">javaScript</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="cmt">Write your Feedback</label>
+        <textarea name="comment" id="cmt" placeholder="Feedback Form..." rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <br>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </form>
+    </center>
+</body>
+</html>

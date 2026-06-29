@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserName Validation</title>
+</head>
+<body>
+    <form>
+        <label for="un">UserName</label>
+        <input type="text" id="un" name="username" placeholder="Enter Your UserName..." title="only letters" pattern="^[A-Za-z]{2,10}$">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <br>
+    <form>
+        <label for="um">Valid Username</label>
+        <input type="text" id="um" name="valid username" placeholder="username..." title="enter a valid username" pattern="^[A-Z]{1}[a-z]{3,10}[!@^&*]{1,1}$">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form>
+        <label for="ema">Enter Valid Email:<span style="color:red;">*</span></label>
+        <input type="email" id="ema" placeholder="enter your email" name="em" required>
+        <br>
+        <br>
+        <label for="un">Enter Username</label>
+        <input type="text" id="un" placeholder="enter your username" name="username" required>
+        <br>
+        <br>
+        <label for="passwd">Enter Strong Password</label>
+        <input type="password" id="passwd" placeholder="password" name="pwd" required>
+        <br>
+        <br>
+        <label for="mob">Mobile Num</label>
+        <input type="tel" id="mob" placeholder="enter your phonenumber" name="phnnum">
+        <br>
+        <br>
+        <label for="age">Enter Current Age</label>
+        <input type="number" min="1" max="100" id="age" placeholder="current age" name="age">
+        <br>
+        <br>
+        <input type="submit">
+        <button type="reset" >cancel</button>
+    </form>
+</body>
+</html>

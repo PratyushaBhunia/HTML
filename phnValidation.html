@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Validation</title>
+</head>
+<body>
+    <h3>Phone Number Pattern</h3>
+    <form>
+        <label for="num">10 Digits Number</label>
+        <input type="tel" id="num" name="phn1" pattern="^[0-9]{10}$">
+        <br>
+        <label for="um">990-166-6789 pattern</label>
+        <input type="tel" id="um" name="phn2" pattern="^\d{3}-\d{3}-\d{4}$">
+        <br>
+        <label for="nu">1st digit that allows only(6, 7, 8, 9)</label>
+        <input type="tel" id="nu" name="phn3" pattern="^[6-9]{1}\d{9}$">
+        <br>
+        <label for="nm">+91-9907855153 pattern</label>
+        <input type="tel" id="nm" name="phn4" pattern="^\+91-[6-9]{1}\d{9}$">
+        <br>
+        <label for="numm">+91-990-785-9680 pattern</label>
+        <input type="tel" id="numm" name="phn5" pattern="^\+91-[6-9]{1}\d{2}-\d{3}-\d{4}$">
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+</body>
+</html>

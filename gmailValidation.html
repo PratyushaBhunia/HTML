@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Validation</title>
+</head>
+<body>
+    <form>
+        <label for="gv">Gmail:</label>
+        <input type="email" id="gv" name="gmail" pattern="^[a-z0-9\._\-]+@[A-Za-z0-7]+\.[A-Za-z]{2,}$">
+        <br>
+        <br>
+        <label for="ag">Another Gmail:</label>
+        <input type="email" id="ag" name="anotherGmail" pattern="^[A-Za-z0-9\._%\-]+@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,}$">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+</body>
+</html>
